@@ -29,11 +29,11 @@ SerenityChat is a chatbot built using **Dialogflow** and **Flask**. It provides 
    ```bash
    pip install -r requirements.txt
 
-5. Add the JSON folder (shared with you in Google Drive) in the root directory of the project.
+5. Add the .JSON folder (shared with you in Google Drive) in the root directory of the project.
 
 6. Set up the environment variable for Google Cloud credentials:
    ```bash
-   $env:GOOGLE_APPLICATION_CREDENTIALS="path/to/your/dialogflow-key.json" (Paste the path of the JSON folder)
+   $env:GOOGLE_APPLICATION_CREDENTIALS="path/to/your/dialogflow-key.json" (Paste the path of the .JSON folder)
    $env:DIALOGFLOW_PROJECT_ID="advanced-serenitychat-bxtb"
    ```
 7. Run the Flask app:
