@@ -1,0 +1,14 @@
+# Ignore virtual environment folder
+newvenv/
+
+# Ignore Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore specific project files
+texts.pkl
+advanced-serenitychat-bxtb-1dfe8941398c.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
